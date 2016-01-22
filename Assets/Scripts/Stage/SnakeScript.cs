@@ -5,7 +5,11 @@ using System.Linq;
 
 public class SnakeScript : MonoBehaviour
 {
+	public GameObject tailPrefab;
+
 	private Vector2 direction = Vector2.right;
+	private List<Transform> tail = new List<Transform> ();
+	private bool ate = false;
 
 	void Start ()
 	{
@@ -27,6 +31,28 @@ public class SnakeScript : MonoBehaviour
 
 	private void Move ()
 	{
+		Vector2 v = transform.position;
+
 		transform.Translate (direction);
+
+		if (ate) {
+			GameObject g = (GameObject)Instantiate (tailPrefab, v, Quaternion.identity);
+			tail.Insert (0, g.transform);
+			ate = false;
+		} else if (tail.Count > 0) {
+			tail.Last ().position = v;
+			tail.Insert (0, tail.Last ());
+			tail.RemoveAt (tail.Count - 1);
+		}
+	}
+
+	void OnTriggerEnter2D (Collider2D collider)
+	{
+		if (collider.name.StartsWith ("Food")) {
+			ate = true;
+			Destroy (collider.gameObject);
+		} else {
+			
+		}
 	}
 }
