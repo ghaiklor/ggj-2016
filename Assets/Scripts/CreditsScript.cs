@@ -5,11 +5,11 @@ using System.Collections;
 public class CreditsScript : MonoBehaviour
 {
 	public int buttonWidth = 128;
-	public int buttonHeigth = 32;
+	public int buttonHeight = 32;
 
 	void OnGUI ()
 	{
-		Rect backButton = new Rect (10, 10, buttonWidth, buttonHeigth);
+		Rect backButton = new Rect (10, 10, buttonWidth, buttonHeight);
 
 		if (GUI.Button (backButton, "Back")) {
 			SceneManager.LoadScene ("Menu");

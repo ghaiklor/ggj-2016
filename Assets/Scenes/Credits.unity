@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonWidth: 128
-  buttonHeigth: 32
+  buttonHeight: 32
 --- !u!1 &1838961914
 GameObject:
   m_ObjectHideFlags: 0
