@@ -3,11 +3,11 @@ using System.Collections;
 
 public class GhostScript : MonoBehaviour
 {
-	public float speed = 1f;
+	private float speed = 1f;
 
 	void Start ()
 	{
-		speed = (float)Random.Range (0f, 5f);
+		speed = (float)Random.Range (2f, 5f);
 	}
 
 	void Update ()
