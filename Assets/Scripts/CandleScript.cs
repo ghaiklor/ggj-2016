@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GhostScript : MonoBehaviour
+public class CandleScript : MonoBehaviour
 {
 	public float speed = 1f;
 
