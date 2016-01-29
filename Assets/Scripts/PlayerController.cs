@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed = 10f;
+	public float force = 10f;
 
 	private Rigidbody2D rb2d;
 
@@ -16,6 +16,6 @@ public class PlayerController : MonoBehaviour
 	{
 		float x = Input.GetAxis ("Horizontal");
 
-		rb2d.AddForce (new Vector2 (speed * x * Time.deltaTime, 0), ForceMode2D.Force);
+		rb2d.AddForce (new Vector2 (force * x, 0), ForceMode2D.Force);
 	}
 }
