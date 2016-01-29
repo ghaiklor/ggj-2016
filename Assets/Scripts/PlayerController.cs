@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class InputController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	public float speed = 10f;
 

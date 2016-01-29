@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScoreScript : MonoBehaviour
+public class ScoreManager : MonoBehaviour
 {
 	private int _score = 0;
 
