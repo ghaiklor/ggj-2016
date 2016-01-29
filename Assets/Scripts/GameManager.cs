@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 	public GameObject player;
 	public List<GameObject> candles;
 	public List<GameObject> ghosts;
+	public GameObject bkg;
 
 	private bool gameStarted = false;
 
@@ -17,6 +18,10 @@ public class GameManager : MonoBehaviour
 		SpawnPlayer ();
 		StartCoroutine (SpawnRandomCandle ());
 		StartCoroutine (SpawnRandomGhost ());
+
+		float height = bkg.GetComponent<SpriteRenderer> ().bounds.size.y;
+		Instantiate (bkg, new Vector3 (0, - (height / 4.0f)), new Quaternion ());
+		Instantiate (bkg, new Vector3 (0, - height - (height / 4.0f)), new Quaternion ());
 	}
 
 	public void SpawnPlayer ()
