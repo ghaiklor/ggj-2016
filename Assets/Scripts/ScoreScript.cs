@@ -3,16 +3,15 @@ using System.Collections;
 
 public class ScoreScript : MonoBehaviour
 {
+	private int _score = 0;
 
-	// Use this for initialization
-	void Start ()
+	public int GetScore ()
 	{
-	
+		return _score;
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+	public void SetScore (int score)
 	{
-	
+		_score = score;
 	}
 }
