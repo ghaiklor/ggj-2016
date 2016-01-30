@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 	public Text GUITotalTimeText;
 	public GameObject background;
 	public GameObject player;
-	public List<GameObject> ghosts;
+	public GameObject ghost;
 
 	private bool gameStarted = false;
 	private float totalTime = 0f;
@@ -19,18 +19,15 @@ public class GameManager : MonoBehaviour
 		gameStarted = true;
 
 		SpawnPlayer ();
+		SpawnBackground ();
 		StartCoroutine (SpawnRandomGhost ());
-
-		float height = background.GetComponent<SpriteRenderer> ().bounds.size.y;
-		Instantiate (background, new Vector3 (0, -(height / 4.0f)), new Quaternion ());
-		Instantiate (background, new Vector3 (0, -height - (height / 4.0f)), new Quaternion ());
 	}
 
 	public void GameOver ()
 	{
 		gameStarted = false;
 		StopCoroutine ("SpawnRangomGhost");
-		SceneManager.LoadScene ("Ritual");
+		SceneManager.LoadScene ("Menu");
 	}
 
 	void Update ()
@@ -46,10 +43,17 @@ public class GameManager : MonoBehaviour
 		Instantiate (player, new Vector3 (2f, 2f, 0), Quaternion.identity);
 	}
 
+	public void SpawnBackground ()
+	{
+		float height = background.GetComponent<SpriteRenderer> ().bounds.size.y;
+		Instantiate (background, new Vector3 (0, -(height / 4.0f)), Quaternion.identity);
+		Instantiate (background, new Vector3 (0, -height - (height / 4.0f)), Quaternion.identity);
+	}
+
 	public IEnumerator SpawnRandomGhost ()
 	{
 		while (gameStarted) {
-			GameObject toInstantiate = ghosts [Random.Range (0, ghosts.Count)];
+			GameObject toInstantiate = ghost;
 			Vector3 position = new Vector3 (Random.Range (-5f, 5f), -6f, 0);
 			Instantiate (toInstantiate, position, Quaternion.identity);
 

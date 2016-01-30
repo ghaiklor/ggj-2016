@@ -12,6 +12,11 @@ public class PlayerScript : MonoBehaviour
 		gameManager = GameObject.FindGameObjectWithTag ("Scripts").GetComponent<GameManager> ();
 	}
 
+	void Update ()
+	{
+		light.intensity = Random.Range (light.intensity - 1f, light.intensity + 1f);
+	}
+
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Ghost") {
