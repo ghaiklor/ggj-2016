@@ -3,12 +3,21 @@ using System.Collections;
 
 public class PlayerScript : MonoBehaviour
 {
-//	void OnCollisionEnter2D (Collider2D other)
-//	{
-//		if (other.gameObject.tag == "Candle") {
-//			Debug.Log ("Candle");
-//		} else if (other.gameObject.tag == "Ghost") {
-//			Debug.Log ("Ghost");
-//		}
-//	}
+	private Light light;
+
+	void Start ()
+	{
+		light = GetComponentInChildren<Light> ();
+	}
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.gameObject.tag == "Ghost") {
+			light.range = light.range * 0.5f;
+
+			if (light.intensity <= 1f || light.range <= 1f) {
+				light.range = 20f;
+			}
+		}
+	}
 }

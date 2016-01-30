@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+	public Text GUITotalTimeText;
+	public GameObject background;
 	public GameObject player;
 	public List<GameObject> ghosts;
 
 	private bool gameStarted = false;
+	private float totalTime = 0f;
 
 	void Start ()
 	{
@@ -15,6 +19,18 @@ public class GameManager : MonoBehaviour
 
 		SpawnPlayer ();
 		StartCoroutine (SpawnRandomGhost ());
+
+		float height = background.GetComponent<SpriteRenderer> ().bounds.size.y;
+		Instantiate (background, new Vector3 (0, -(height / 4.0f)), new Quaternion ());
+		Instantiate (background, new Vector3 (0, -height - (height / 4.0f)), new Quaternion ());
+	}
+
+	void Update ()
+	{
+		if (gameStarted) {
+			totalTime += Time.deltaTime;
+			GUITotalTimeText.text = "Time: " + totalTime.ToString ("F1");
+		}
 	}
 
 	public void SpawnPlayer ()
