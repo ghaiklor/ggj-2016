@@ -14,15 +14,15 @@ public class PlayerScript : MonoBehaviour
 
 	void Update ()
 	{
-		light.intensity = Random.Range (light.intensity - 1f, light.intensity + 1f);
+		light.intensity = Mathf.Max (Random.Range (light.intensity - 0.5f, light.intensity + 0.5f), 1f);
 	}
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Ghost") {
-			light.range = light.range * 0.5f;
+			light.range = light.range * 0.7f;
 
-			if (light.intensity <= 1f || light.range <= 2f) {
+			if (light.range <= 2f) {
 				gameManager.GameOver ();
 			}
 		}
