@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 	{
 		gameStarted = false;
 		StopCoroutine ("SpawnRangomGhost");
-		SceneManager.LoadScene ("Menu");
+		SceneManager.LoadScene ("Ritual");
 	}
 
 	void Update ()
