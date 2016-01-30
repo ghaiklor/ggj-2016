@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public float force = 20f;
+	public float force = 2000f;
 
 	private Rigidbody2D rb2d;
 

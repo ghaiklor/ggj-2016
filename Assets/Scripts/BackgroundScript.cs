@@ -3,17 +3,10 @@ using System.Collections;
 
 public class BackgroundScript : MonoBehaviour
 {
-	public Vector2 speed = new Vector2 (0, 0);
-	public Vector2 direction = new Vector2 (0, 0);
+	public float speed = 10f;
 
 	void Update ()
 	{
-		float bound = GetComponent<SpriteRenderer> ().bounds.size.y;
-
-		if (transform.position.y >= bound) {
-			transform.position = new Vector3 (0, -bound, 0);
-		}
-
-		transform.Translate (new Vector3 (speed.x * direction.x, speed.y * direction.y));
+		transform.Translate (0, speed * Time.deltaTime, 0);
 	}
 }
