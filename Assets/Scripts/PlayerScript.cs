@@ -14,7 +14,7 @@ public class PlayerScript : MonoBehaviour
 
 	void Update ()
 	{
-		light.intensity = Mathf.Max (Random.Range (light.intensity - 0.5f, light.intensity + 0.5f), 1f);
+		light.intensity = Mathf.Max (Random.Range (light.intensity - 0.5f, light.intensity + 0.5f), 2f);
 	}
 
 	void OnTriggerEnter2D (Collider2D other)

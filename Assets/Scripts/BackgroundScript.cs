@@ -11,7 +11,7 @@ public class BackgroundScript : MonoBehaviour
 		float bound = GetComponent<SpriteRenderer> ().bounds.size.y;
 
 		if (transform.position.y >= bound) {
-			transform.position = new Vector3 (0, -bound + 2f, 0);
+			transform.position = new Vector3 (0, -bound, 0);
 		}
 
 		transform.Translate (new Vector3 (speed.x * direction.x, speed.y * direction.y));

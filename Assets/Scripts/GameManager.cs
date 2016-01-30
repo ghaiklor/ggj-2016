@@ -23,41 +23,43 @@ public class GameManager : MonoBehaviour
 		StartCoroutine (SpawnRandomGhost ());
 	}
 
-	public void GameOver ()
-	{
-		gameStarted = false;
-		StopCoroutine ("SpawnRangomGhost");
-		SceneManager.LoadScene ("Menu");
-	}
-
 	void Update ()
 	{
 		if (gameStarted) {
 			totalTime += Time.deltaTime;
-			GUITotalTimeText.text = "Time: " + totalTime.ToString ("F1");
+			GUITotalTimeText.text = "Time: " + totalTime.ToString ("F1") + "s";
 		}
+	}
+
+	public void GameOver ()
+	{
+		gameStarted = false;
+
+		StopCoroutine ("SpawnRangomGhost");
+		SceneManager.LoadScene ("Menu");
 	}
 
 	public void SpawnPlayer ()
 	{
-		Instantiate (player, new Vector3 (2f, 2f, 0), Quaternion.identity);
+		Instantiate (player, new Vector3 (0f, 1f, 0), Quaternion.identity);
 	}
 
 	public void SpawnBackground ()
 	{
 		float height = background.GetComponent<SpriteRenderer> ().bounds.size.y;
-		Instantiate (background, new Vector3 (0, -(height / 4.0f)), Quaternion.identity);
-		Instantiate (background, new Vector3 (0, -height - (height / 4.0f)), Quaternion.identity);
+		Instantiate (background, new Vector3 (0, height, 0), Quaternion.identity);
+		Instantiate (background, new Vector3 (0, 0, 0), Quaternion.identity);
+		Instantiate (background, new Vector3 (0, -height, 0), Quaternion.identity);
 	}
 
 	public IEnumerator SpawnRandomGhost ()
 	{
 		while (gameStarted) {
 			GameObject toInstantiate = ghost;
-			Vector3 position = new Vector3 (Random.Range (-5f, 5f), -6f, 0);
+			Vector3 position = new Vector3 (Random.Range (-6f, 6f), -6f, -1f);
 			Instantiate (toInstantiate, position, Quaternion.identity);
 
-			yield return new WaitForSeconds ((int)Random.Range (0, 10));
+			yield return new WaitForSeconds ((int)Random.Range (2, 5));
 		}
 	}
 }
