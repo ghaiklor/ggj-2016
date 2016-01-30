@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 9a4357bfc7a38483aafd3028d179c584
 folderAsset: yes
 timeCreated: 1454135388
+=======
+guid: ec3fe7104d4014332bfc0d073c2df61d
+folderAsset: yes
+timeCreated: 1454153942
+>>>>>>> dark-fall
 licenseType: Free
 DefaultImporter:
   userData: 

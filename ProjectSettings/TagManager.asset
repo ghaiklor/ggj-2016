@@ -4,7 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Arrow
+=======
+  - Ghost
+  - Candle
+  - Scripts
+>>>>>>> dark-fall
   layers:
   - Default
   - TransparentFX

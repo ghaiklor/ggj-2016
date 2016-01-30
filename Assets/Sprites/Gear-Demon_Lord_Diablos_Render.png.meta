@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 15616da28ad354213bacc287f332281d
+timeCreated: 1454141474
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gear-Demon_Lord_Diablos_Render_0
+    21300002: Gear-Demon_Lord_Diablos_Render_1
+    21300004: Gear-Demon_Lord_Diablos_Render_2
+    21300006: Gear-Demon_Lord_Diablos_Render_3
+    21300008: Gear-Demon_Lord_Diablos_Render_4
+    21300010: Gear-Demon_Lord_Diablos_Render_5
+    21300012: Gear-Demon_Lord_Diablos_Render_6
+    21300014: Gear-Demon_Lord_Diablos_Render_7
+    21300016: Gear-Demon_Lord_Diablos_Render_8
+    21300018: Gear-Demon_Lord_Diablos_Render_9
+    21300020: Gear-Demon_Lord_Diablos_Render_10
+    21300022: Gear-Demon_Lord_Diablos_Render_11
+    21300024: Gear-Demon_Lord_Diablos_Render_12
+    21300026: Gear-Demon_Lord_Diablos_Render_13
+    21300028: Gear-Demon_Lord_Diablos_Render_14
+    21300030: Gear-Demon_Lord_Diablos_Render_15
+    21300032: Gear-Demon_Lord_Diablos_Render_16
+    21300034: Gear-Demon_Lord_Diablos_Render_17
+    21300036: Gear-Demon_Lord_Diablos_Render_18
+    21300038: Gear-Demon_Lord_Diablos_Render_19
+    21300040: Gear-Demon_Lord_Diablos_Render_20
+    21300042: Gear-Demon_Lord_Diablos_Render_21
+    21300044: Gear-Demon_Lord_Diablos_Render_22
+    21300046: Gear-Demon_Lord_Diablos_Render_23
+    21300048: Gear-Demon_Lord_Diablos_Render_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gear-Demon_Lord_Diablos_Render_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gear-Demon_Lord_Diablos_Render_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.8
+        width: 380
+        height: 15.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
