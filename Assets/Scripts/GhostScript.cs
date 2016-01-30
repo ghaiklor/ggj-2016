@@ -3,16 +3,10 @@ using System.Collections;
 
 public class GhostScript : MonoBehaviour
 {
-	private float speed = 1f;
-
 	void Start ()
 	{
-		speed = (float)Random.Range (2f, 5f);
-	}
-
-	void Update ()
-	{
-		transform.Translate (0, speed * Time.deltaTime, 0);
+		Rigidbody2D rb2d = GetComponent<Rigidbody2D> ();
+		rb2d.gravityScale = Random.Range (-0.5f, -0.1f);
 	}
 
 	void OnBecameInvisible ()

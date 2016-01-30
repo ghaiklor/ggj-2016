@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 			Vector3 position = new Vector3 (Random.Range (-5f, 5f), -10f, 0);
 			Instantiate (toInstantiate, position, Quaternion.identity);
 
-			yield return new WaitForSeconds ((int)Random.Range (0, 20));
+			yield return new WaitForSeconds ((int)Random.Range (0, 10));
 		}
 	}
 }
