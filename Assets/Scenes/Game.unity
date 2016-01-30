@@ -117,9 +117,7 @@ MonoBehaviour:
   background: {fileID: 134372, guid: 3d2f0dd9679d84203b635b1782aee0e4, type: 2}
   player: {fileID: 121356, guid: 2064c97e3d2974e0ea49ab6e5d97feb2, type: 2}
   ghosts:
-  - {fileID: 138652, guid: a26e35b8f01fb4be2aacf90f905df6c6, type: 2}
-  - {fileID: 111710, guid: b0c993e70ed794835ba5041f0ee942ef, type: 2}
-  - {fileID: 150014, guid: 8f02f692db93140d5960d7e5288cc3f5, type: 2}
+  - {fileID: 142070, guid: a7c32c7f4046547eb8afa34bb650f693, type: 2}
 --- !u!4 &78586672
 Transform:
   m_ObjectHideFlags: 0

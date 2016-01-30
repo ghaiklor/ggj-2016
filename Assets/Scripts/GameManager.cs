@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
 	{
 		gameStarted = false;
 		StopCoroutine ("SpawnRangomGhost");
+		SceneManager.LoadScene ("Menu");
 	}
 
 	void Update ()
