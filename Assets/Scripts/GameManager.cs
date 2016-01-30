@@ -25,6 +25,12 @@ public class GameManager : MonoBehaviour
 		Instantiate (background, new Vector3 (0, -height - (height / 4.0f)), new Quaternion ());
 	}
 
+	public void GameOver ()
+	{
+		gameStarted = false;
+		StopCoroutine ("SpawnRangomGhost");
+	}
+
 	void Update ()
 	{
 		if (gameStarted) {

@@ -7,7 +7,7 @@ public class GhostScript : MonoBehaviour
 
 	void Start ()
 	{
-		speed = (float)Random.Range (5f, 10f);
+		speed = (float)Random.Range (8f, 13f);
 	}
 
 	void Update ()
