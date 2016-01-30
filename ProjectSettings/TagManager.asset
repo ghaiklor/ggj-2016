@@ -46,3 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 3573013797
+    locked: 0
+  - name: Lights
+    uniqueID: 544486039
+    locked: 0
