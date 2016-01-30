@@ -20,10 +20,10 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -113,10 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dd3e037670954acf8e84e196ca6d7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 110332, guid: 321e1f2d727204850abbed417b6ce475, type: 2}
-  player: {fileID: 121356, guid: 2064c97e3d2974e0ea49ab6e5d97feb2, type: 2}
-  candles:
-  - {fileID: 154124, guid: b2ce55796ba1b40a8b0415fa89958b96, type: 2}
+  player: {fileID: 134264, guid: 2064c97e3d2974e0ea49ab6e5d97feb2, type: 2}
   ghosts:
   - {fileID: 138652, guid: a26e35b8f01fb4be2aacf90f905df6c6, type: 2}
   - {fileID: 111710, guid: b0c993e70ed794835ba5041f0ee942ef, type: 2}
