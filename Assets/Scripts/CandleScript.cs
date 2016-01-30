@@ -22,9 +22,9 @@ public class CandleScript : MonoBehaviour
 
 	void Update ()
 	{
-		stepRangeLight = light.range > maxRangeLight ? -stepRangeLight : stepRangeLight;
-
-		light.range += stepRangeLight;
+//		stepRangeLight = light.range > maxRangeLight ? -stepRangeLight : stepRangeLight;
+//
+//		light.range += stepRangeLight;
 	}
 
 	void OnBecameInvisible ()
