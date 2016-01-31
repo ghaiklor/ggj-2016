@@ -23,10 +23,10 @@ public class PlayerScript : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Ghost") {
-			light.range = light.range * 0.7f;
+			light.range = light.range - Mathf.Min (light.range * 0.7f, 2f);
 
-			if (light.range <= 1f) {
-				gameManager.GameOver ();
+			if (light.range <= 1.5f) {
+				StartCoroutine (gameManager.GameOver ());
 			}
 		}
 	}

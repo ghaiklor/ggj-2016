@@ -12,6 +12,6 @@ public class AudioScript : MonoBehaviour
 
 	void Update ()
 	{
-		background.panStereo = background.panStereo + Random.Range (-0.1f, 0.1f);
+		background.panStereo = background.panStereo + Random.Range (-0.3f, 0.3f);
 	}
 }

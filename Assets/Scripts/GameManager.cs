@@ -17,11 +17,12 @@ public class GameManager : MonoBehaviour
 		ghostCoroutine = StartCoroutine (SpawnRandomGhost ());
 	}
 
-	public void GameOver ()
+	public IEnumerator GameOver ()
 	{
 		StopCoroutine (ghostCoroutine);
 		BackgroundAudio.enabled = false;
 		GameOverText.enabled = true;
+		yield return new WaitForSeconds (5f);
 		SceneManager.LoadScene ("Menu");
 	}
 
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
 			Vector3 position = new Vector3 (Random.Range (-6f, 6f), -6f, -1f);
 			Instantiate (toInstantiate, position, Quaternion.identity);
 			
-			yield return new WaitForSeconds ((int)Random.Range (2, 5));
+			yield return new WaitForSeconds ((int)Random.Range (1, 3));
 		}
 	}
 }

@@ -11,7 +11,7 @@ public class GhostScript : MonoBehaviour
 		float randomScale = Random.Range (0.2f, 0.4f);
 
 		player = GameObject.FindWithTag ("Player");
-		speed = (float)Random.Range (8f, 12f);
+		speed = (float)Random.Range (2f, 5f);
 		transform.localScale = new Vector3 (randomScale, randomScale, 0);
 	}
 
