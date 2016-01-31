@@ -95,6 +95,7 @@ GameObject:
   - 4: {fileID: 38558537}
   - 212: {fileID: 38558536}
   - 95: {fileID: 38558535}
+  - 114: {fileID: 38558538}
   m_Layer: 0
   m_Name: CutScene
   m_TagString: Untagged
@@ -161,6 +162,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &38558538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 38558534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2c5f85c0fbb4a27b71c085735cc2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676423811
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +396,6 @@ GameObject:
   - 92: {fileID: 1343240752}
   - 124: {fileID: 1343240751}
   - 81: {fileID: 1343240750}
-  - 114: {fileID: 1343240755}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -459,18 +470,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &1343240755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1343240749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb2c5f85c0fbb4a27b71c085735cc2a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CutSceneAnimation: {fileID: 0}
 --- !u!1 &2053194703
 GameObject:
   m_ObjectHideFlags: 0
