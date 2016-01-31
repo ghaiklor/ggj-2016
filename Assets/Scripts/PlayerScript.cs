@@ -3,8 +3,10 @@ using System.Collections;
 
 public class PlayerScript : MonoBehaviour
 {
-	private Light light;
+	private new Light light;
 	private GameManager gameManager;
+
+	private float currentLightIntensity;
 
 	void Start ()
 	{
@@ -14,7 +16,8 @@ public class PlayerScript : MonoBehaviour
 
 	void Update ()
 	{
-		light.intensity = Mathf.Max (Random.Range (light.intensity - 0.5f, light.intensity + 0.5f), 2f);
+		currentLightIntensity = Mathf.Max (Mathf.Min (6f, Random.Range (light.intensity - 1f, light.intensity + 1f)), 2f);
+		light.intensity = currentLightIntensity;
 	}
 
 	void OnTriggerEnter2D (Collider2D other)
@@ -22,7 +25,7 @@ public class PlayerScript : MonoBehaviour
 		if (other.gameObject.tag == "Ghost") {
 			light.range = light.range * 0.7f;
 
-			if (light.range <= 2f) {
+			if (light.range <= 1f) {
 				gameManager.GameOver ();
 			}
 		}

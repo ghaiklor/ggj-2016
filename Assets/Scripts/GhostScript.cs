@@ -8,10 +8,10 @@ public class GhostScript : MonoBehaviour
 
 	void Start ()
 	{
-		float randomScale = Random.Range (0.3f, 0.6f);
+		float randomScale = Random.Range (0.2f, 0.4f);
 
 		player = GameObject.FindWithTag ("Player");
-		speed = (float)Random.Range (10f, 15f);
+		speed = (float)Random.Range (8f, 12f);
 		transform.localScale = new Vector3 (randomScale, randomScale, 0);
 	}
 

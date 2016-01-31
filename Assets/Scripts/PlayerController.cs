@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour
 	{
 		float x = Input.GetAxis ("Horizontal");
 
+		if (x < 0) {
+			transform.rotation = new Quaternion (0, 0, 0, 0);
+		} else if (x > 0) {
+			transform.rotation = new Quaternion (0, 180, 0, 0);
+		}
+
 		rb2d.AddForce (new Vector2 (force * x, 0), ForceMode2D.Force);
 	}
 }

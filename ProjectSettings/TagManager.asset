@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Scripts
   - Ghost
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -45,6 +46,12 @@ TagManager:
     locked: 0
   - name: Ghosts
     uniqueID: 1802035029
+    locked: 0
+  - name: Light
+    uniqueID: 2883905549
+    locked: 0
+  - name: Player
+    uniqueID: 2252849555
     locked: 0
   - name: Default
     uniqueID: 0

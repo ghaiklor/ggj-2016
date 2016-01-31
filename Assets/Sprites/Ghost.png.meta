@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: a4051a864a83543a9947f81df7f571c9
+timeCreated: 1454233555
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_0
+    21300002: Ghost_1
+    21300004: Ghost_2
+    21300006: Ghost_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 489
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 196, y: -69}
+        - {x: 190, y: -36}
+        - {x: 196, y: -32}
+        - {x: 196, y: -2}
+        - {x: 169, y: 43}
+        - {x: 143, y: 183}
+        - {x: 127, y: 220}
+        - {x: 106, y: 250}
+        - {x: 33, y: 250}
+        - {x: 3, y: 221}
+        - {x: -8, y: 182}
+        - {x: 1, y: 88}
+        - {x: 14, y: 34}
+        - {x: -37, y: -20}
+        - {x: -28, y: -51}
+        - {x: -47, y: -68}
+        - {x: -43, y: -72}
+        - {x: -27, y: -77}
+        - {x: -7, y: -76}
+        - {x: -139, y: -129}
+        - {x: -156, y: -149}
+        - {x: -161, y: -170}
+        - {x: -156, y: -170}
+        - {x: -196, y: -239}
+        - {x: -196, y: -244}
+        - {x: -172, y: -245}
+        - {x: -102, y: -192}
+        - {x: -99, y: -225}
+        - {x: -92, y: -229}
+        - {x: -79, y: -230}
+        - {x: -72, y: -250}
+        - {x: -42, y: -250}
+        - {x: 58, y: -231}
+        - {x: 102, y: -206}
+        - {x: 168, y: -185}
+        - {x: 196, y: -106}
+    - name: Ghost_1
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 0
+        width: 494
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 198.40002, y: -59}
+        - {x: 198.40002, y: -22}
+        - {x: 197.40002, y: -19}
+        - {x: 150.40002, y: 126}
+        - {x: 152.40002, y: 233}
+        - {x: 124.400024, y: 256}
+        - {x: 61.400024, y: 256}
+        - {x: 9.400024, y: 240}
+        - {x: -5.5999756, y: 215}
+        - {x: -7.5999756, y: 104}
+        - {x: -25.599976, y: -46}
+        - {x: -59.599976, y: -91}
+        - {x: -26.599976, y: -94}
+        - {x: -159.59998, y: -142}
+        - {x: -155.59998, y: -174}
+        - {x: -150.59998, y: -174}
+        - {x: -147.59998, y: -172}
+        - {x: -133.59998, y: -158}
+        - {x: -127.599976, y: -158}
+        - {x: -136.59998, y: -162}
+        - {x: -150.59998, y: -180}
+        - {x: -154.59998, y: -188}
+        - {x: -197.59998, y: -238}
+        - {x: -197.59998, y: -248}
+        - {x: -163.59998, y: -240}
+        - {x: -142.59998, y: -226}
+        - {x: -114.599976, y: -198}
+        - {x: -100.599976, y: -231}
+        - {x: -74.599976, y: -236}
+        - {x: -69.599976, y: -256}
+        - {x: -53.599976, y: -256}
+        - {x: 53.400024, y: -235}
+        - {x: 85.400024, y: -217}
+        - {x: 170.40002, y: -180}
+        - {x: 194.40002, y: -109}
+    - name: Ghost_2
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 0
+        width: 496
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 189.59998, y: -82}
+        - {x: 172.59998, y: -23}
+        - {x: 199.59998, y: -20}
+        - {x: 199.59998, y: -8}
+        - {x: 168.59998, y: 25}
+        - {x: 156.59998, y: 96}
+        - {x: 142.59998, y: 250}
+        - {x: 124.599976, y: 256}
+        - {x: 39.599976, y: 256}
+        - {x: 2.5999756, y: 238}
+        - {x: -7.4000244, y: 220}
+        - {x: -12.400024, y: 125}
+        - {x: 5.5999756, y: 39}
+        - {x: -29.400024, y: -26}
+        - {x: -10.400024, y: -35}
+        - {x: -6.4000244, y: -36}
+        - {x: 1.5999756, y: -36}
+        - {x: -40.400024, y: -88}
+        - {x: -38.400024, y: -97}
+        - {x: -17.400024, y: -90}
+        - {x: -58.400024, y: -118}
+        - {x: -137.40002, y: -134}
+        - {x: -157.40002, y: -156}
+        - {x: -165.40002, y: -164}
+        - {x: -163.40002, y: -170}
+        - {x: -198.40002, y: -224}
+        - {x: -198.40002, y: -236}
+        - {x: -154.40002, y: -244}
+        - {x: -102.400024, y: -198}
+        - {x: -102.400024, y: -231}
+        - {x: -73.400024, y: -236}
+        - {x: -69.400024, y: -256}
+        - {x: -37.400024, y: -256}
+        - {x: 13.599976, y: -246}
+        - {x: 102.599976, y: -224}
+        - {x: 158.59998, y: -168}
+        - {x: 184.59998, y: -138}
+    - name: Ghost_3
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 0
+        width: 494
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 198.40002, y: -59}
+        - {x: 198.40002, y: -22}
+        - {x: 197.40002, y: -19}
+        - {x: 150.40002, y: 126}
+        - {x: 152.40002, y: 233}
+        - {x: 124.400024, y: 256}
+        - {x: 61.400024, y: 256}
+        - {x: 9.400024, y: 240}
+        - {x: -5.5999756, y: 215}
+        - {x: -7.5999756, y: 104}
+        - {x: -25.599976, y: -46}
+        - {x: -59.599976, y: -91}
+        - {x: -26.599976, y: -94}
+        - {x: -159.59998, y: -142}
+        - {x: -155.59998, y: -174}
+        - {x: -150.59998, y: -174}
+        - {x: -147.59998, y: -172}
+        - {x: -133.59998, y: -158}
+        - {x: -127.599976, y: -158}
+        - {x: -136.59998, y: -162}
+        - {x: -150.59998, y: -180}
+        - {x: -154.59998, y: -188}
+        - {x: -197.59998, y: -238}
+        - {x: -197.59998, y: -248}
+        - {x: -163.59998, y: -240}
+        - {x: -142.59998, y: -226}
+        - {x: -114.599976, y: -198}
+        - {x: -100.599976, y: -231}
+        - {x: -74.599976, y: -236}
+        - {x: -69.599976, y: -256}
+        - {x: -53.599976, y: -256}
+        - {x: 53.400024, y: -235}
+        - {x: 85.400024, y: -217}
+        - {x: 170.40002, y: -180}
+        - {x: 194.40002, y: -109}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
