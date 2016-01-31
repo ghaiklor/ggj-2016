@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 		}
 
 		yield return new WaitForSeconds (7f);
-		SceneManager.LoadScene ("Menu");
+		Application.Quit ();
 	}
 
 	public IEnumerator SpawnRandomGhost ()

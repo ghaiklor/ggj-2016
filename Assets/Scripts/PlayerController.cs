@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
 	{
 		float x = Input.GetAxis ("Horizontal");
 
+		#if UNITY_IOS || UNITY_ANDROID
+			x = Input.acceleration.x;
+		#endif
+
 		if (x < 0) {
 			transform.rotation = new Quaternion (0, 0, 0, 0);
 		} else if (x > 0) {
