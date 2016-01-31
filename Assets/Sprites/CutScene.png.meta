@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 51355b3648b544c829842cacdc86736e
+timeCreated: 1454241459
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CutScene_0
+    21300002: CutScene_1
+    21300004: CutScene_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CutScene_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 182
+        width: 472
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.8, y: 109.600006}
+        - {x: -188.8, y: -108.399994}
+        - {x: 189.2, y: -108.399994}
+        - {x: 189.2, y: 109.600006}
+    - name: CutScene_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 99
+        width: 645
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.10004, y: 75.20001}
+        - {x: 123.10004, y: 140.20001}
+        - {x: 121.10004, y: 142.20001}
+        - {x: -257.89996, y: 142.20001}
+        - {x: -257.89996, y: -75.79999}
+        - {x: -256.89996, y: -76.79999}
+        - {x: -121.89996, y: -76.79999}
+        - {x: -121.89996, y: -140.79999}
+        - {x: -120.89996, y: -141.79999}
+        - {x: 259.10004, y: -141.79999}
+        - {x: 259.10004, y: 74.20001}
+        - {x: 258.10004, y: 75.20001}
+    - name: CutScene_2
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 19
+        width: 817
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 192.20007, y: 43.199997}
+        - {x: 192.20007, y: 105.2}
+        - {x: 190.20007, y: 107.2}
+        - {x: 54.200073, y: 107.2}
+        - {x: 54.200073, y: 173.2}
+        - {x: 53.200073, y: 174.2}
+        - {x: -325.79993, y: 174.2}
+        - {x: -326.79993, y: 173.2}
+        - {x: -326.79993, y: -43.800003}
+        - {x: -325.79993, y: -44.800003}
+        - {x: -190.79993, y: -44.800003}
+        - {x: -190.79993, y: -108.8}
+        - {x: -188.79993, y: -110.8}
+        - {x: -51.799927, y: -110.8}
+        - {x: -51.799927, y: -172.8}
+        - {x: -50.799927, y: -173.8}
+        - {x: 327.20007, y: -173.8}
+        - {x: 327.20007, y: 42.199997}
+        - {x: 326.20007, y: 43.199997}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
