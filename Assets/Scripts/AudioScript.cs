@@ -12,6 +12,7 @@ public class AudioScript : MonoBehaviour
 
 	void Update ()
 	{
-		background.panStereo = background.panStereo + Random.Range (-0.3f, 0.3f);
+		background.panStereo = background.panStereo + Random.Range (-0.2f, 0.2f);
+		background.volume = Mathf.Min (1f, Mathf.Max (background.volume + Random.Range (-0.01f, 0.01f), 0f));
 	}
 }

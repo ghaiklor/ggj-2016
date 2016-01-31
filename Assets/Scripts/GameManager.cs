@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 			Destroy (ghost);
 		}
 
-		yield return new WaitForSeconds (5f);
+		yield return new WaitForSeconds (7f);
 		SceneManager.LoadScene ("Menu");
 	}
 
