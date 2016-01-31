@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
 		StopCoroutine (ghostCoroutine);
 		BackgroundAudio.enabled = false;
 		GameOverText.enabled = true;
+
+		GameObject[] ghosts = GameObject.FindGameObjectsWithTag ("Ghost");
+		foreach (GameObject ghost in ghosts) {
+			Destroy (ghost);
+		}
+
 		yield return new WaitForSeconds (5f);
 		SceneManager.LoadScene ("Menu");
 	}
